@@ -1,4 +1,4 @@
--- Dune query: PENDING — affected_rows.sql
+-- Dune query: 8072957 — https://dune.com/queries/8072957/
 -- Purpose:
 --   Enumerate every WETH/AVAIL row whose fee-calculation base changes
 --   when the metric uses the sold-token USD value.
