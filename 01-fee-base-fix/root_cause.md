@@ -412,7 +412,15 @@ Residual count: **1**.
 
 **Correction →** I replaced CSV-based validation with one-row acceptance queries and five specified row samples.
 
-Error-log count: **8**.
+### #19
+
+**Error →** The first SUMMARY draft labeled the two largest-row values as `legacy fee base` and `fixed fee base`, while `root_cause.md` identified them as legacy `amount_usd` and input-side USD.
+
+**How discovered →** A cross-file label check found that the same two values described different data layers.
+
+**Correction →** I restored the source-level labels: `legacy amount_usd` and `input-side USD`. The fee-base interpretation remains in the model-formula section.
+
+Error-log count: **9**.
 
 ## 13. Limits
 
