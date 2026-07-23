@@ -1,0 +1,7 @@
+metric,unit,before_value,after_value,absolute_change,percentage_change,before_source,after_source
+trade_rows,rows,3105881,3105881,0,0.0000%,https://dune.com/queries/7992111/,https://dune.com/queries/8075341/
+repaired_rows,rows,0,142,142,not_applicable,https://dune.com/queries/7992111/,https://dune.com/queries/8072957/
+fees_usd,USD,7457019.231172,7437622.456387,-19396.774785,-0.2601%,https://dune.com/queries/7992111/,https://dune.com/queries/8075341/
+supply_side_fees_usd,USD,6036443.164674,6020279.185686,-16163.978988,-0.2678%,https://dune.com/queries/7992111/,https://dune.com/queries/8075341/
+revenue_usd,USD,1420576.066498,1417343.270700,-3232.795798,-0.2276%,https://dune.com/queries/7992111/,https://dune.com/queries/8075341/
+display_rounding_residual_usd,USD,0.000000,0.000001,0.000001,not_applicable,https://dune.com/queries/7992111/,https://dune.com/queries/8075341/
