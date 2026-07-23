@@ -34,13 +34,13 @@ It followed five steps:
 4. Enumerate every row that changes at six decimal places.
 5. Run a full regression against all 3,105,881 base rows.
 
-The fixed fee base is:
+For the 142 repaired rows, the fixed fee base is:
 
 ```text
 token_sold_amount × sold_token_minute_price_usd
 ```
 
-The model keeps the original Swap events and `dex.trades.amount_usd`.
+Every other row retains the legacy fee base. The model keeps the original Swap events and `dex.trades.amount_usd`.
 
 ## Key numbers
 
@@ -100,9 +100,9 @@ It comes from subtracting three outputs that were rounded independently to six d
 
 ## Error log
 
-Error-log count: **9**
+Error-log count: **10**
 
-The numbered log runs from `#11` through `#19`. It includes the initial misclassification of the incident, SQL alias errors, ordering correction, affected-row overcount, the unavailable CSV-export request, and an inconsistent valuation label in the first SUMMARY draft.
+The numbered log runs from `#11` through `#20`. It includes the initial incident misclassification, SQL alias errors, ordering correction, affected-row overcount, the unavailable CSV-export request, inconsistent valuation labels, and an overbroad description of the repair formula.
 
 The complete entries are in `root_cause.md`.
 
