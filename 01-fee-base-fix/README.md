@@ -8,7 +8,7 @@ The legacy model used `dex.trades.amount_usd` as the fee-calculation base.
 
 For two material WETH/AVAIL trades, `amount_usd` matched the bought WETH leg. The raw Swap events were valid, but the fee model needed the USD value of the sold input token.
 
-The fixed formula is:
+For the 142 repaired rows, the fixed formula is:
 
 ```text
 fixed_fee_base_usd
@@ -16,7 +16,7 @@ fixed_fee_base_usd
     × sold_token_minute_price_usd
 ```
 
-The repair keeps the original Swap events and `dex.trades.amount_usd`.
+Every other row retains the legacy fee base. The repair keeps the original Swap events and `dex.trades.amount_usd`.
 
 ## Scope
 
