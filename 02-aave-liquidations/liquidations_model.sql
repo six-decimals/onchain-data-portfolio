@@ -1,3 +1,4 @@
+-- Dune query: https://dune.com/queries/8092290/
 /*
 Purpose:
   Build the unpriced Aave V3 Ethereum event-level liquidation model from
