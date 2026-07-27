@@ -40,7 +40,7 @@ A follow-up incident repair on the same window: `dex.trades.amount_usd` valued a
 | # | Deliverable | Scope | Status |
 |---|---|---|---|
 | 01 | [Data-incident change package for the WETH/AVAIL mispricing](01-fee-base-fix/): root cause, fix policy, regression diff, impact table | Uniswap V3 / Ethereum | **complete** — [Affected](https://dune.com/queries/8072957/) · [Fixed](https://dune.com/queries/8075341/) · [Regression](https://dune.com/queries/8080408/) |
-| 02 | `lending.liquidations` — event-level liquidation model | Aave V3 | queued |
+| 02 | [Event-level Aave V3 liquidation model, reconciled row-by-row against Spellbook lending legs](02-aave-liquidations/) | Aave V3 / Ethereum | **complete** — [Reconciliation](https://dune.com/queries/8092306/) · [Diagnostic](https://dune.com/queries/8092322/) · [Closed ledger](https://dune.com/queries/8092350/) |
 | 03 | Incremental dbt model for a full-history fees/revenue scan | Uniswap V3 | queued |
 | 04 | Reverse-engineering an undocumented protocol into production-ready models | TBD, new chain preferred | queued |
 | 05 | Organic-activity methodology: separating real usage from wash trading and incentive noise | Stablecoins | queued |
