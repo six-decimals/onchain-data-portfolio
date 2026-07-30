@@ -29,7 +29,7 @@ The three-date filter selected `90.8277%` fewer trades. Logical pool/setting-eve
 Eight decisions were frozen: B3-01, B8, B9, B3-02, B3-03, B3-04, B10, and B26. B10 preserves trade-level granularity; B26 selects engineering and product teams.
 
 - Unexplained key, field, or monetary residuals: **0**
-- Logged project errors: **9** (`#29`–`#37`)
+- Logged project errors: **11** (`#29`–`#39`)
 - Performance failure is disclosed separately, not counted as a residual.
 
 ## Evidence
