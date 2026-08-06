@@ -26,7 +26,7 @@ A follow-up incident repair on the same window: `dex.trades.amount_usd` valued a
 | 02 | [Event-level Aave V3 liquidation model, reconciled row-by-row against Spellbook lending legs](02-aave-liquidations/) | Aave V3 / Ethereum | **complete** — [Reconciliation](https://dune.com/queries/8092306/) · [Diagnostic](https://dune.com/queries/8092322/) · [Closed ledger](https://dune.com/queries/8092350/) |
 | 03 | [Trade-level incremental dbt model for Uniswap V3 fees and revenue](03-incremental-dbt/) | Uniswap V3 / Ethereum | **complete** — [Incremental parity](https://dune.com/queries/8127229/) · [Baseline parity](https://dune.com/queries/8127558/) · [Benchmark: −25.0000%](03-incremental-dbt/benchmark.csv) |
 | 04 | Reverse-engineering an undocumented protocol into production-ready models | TBD, new chain preferred | queued |
-| 05 | Organic-activity methodology: separating real usage from wash trading and incentive noise | Stablecoins | queued |
+| 05 | [Four-signal organic-activity screening methodology for Ethereum USDC/USDT](05-own-methodology/) | Stablecoins / Ethereum | **complete** — [Fusion](https://dune.com/queries/8233932) · [Case audit](https://dune.com/queries/8238924) · [Two-window validation](https://dune.com/queries/8239247) |
 ---
 ## How this work is produced
 SQL is AI-generated and human-verified: generate → run on real data → reconcile → correct. Nothing enters a conclusion without surviving that loop. Convention decisions — fix vs drop vs flag, denominator choices, exclusion rules — are recorded as explicit rulings inside each deliverable: the same audit posture I would demand from any table I had to trust.
